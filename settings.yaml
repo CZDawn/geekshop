@@ -1,0 +1,20 @@
+default:
+  DEBUG: ""
+  SECRET_KEY: ""
+  GOOGLE_API_KEY: ""
+  GOOGLE_OAUTH_CLIENT_ID: ""
+  GOOGLE_OAUTH_CLIENT_SECRET: ""
+
+development:
+  DEBUG: True
+  SECRET_KEY: "xxx"
+  GOOGLE_API_KEY: "xxx"
+  GOOGLE_OAUTH_CLIENT_ID: "xxx"
+  GOOGLE_OAUTH_CLIENT_SECRET: "xxx"
+
+production:
+  DEBUG: False
+  SECRET_KEY: "xxx" 
+  GOOGLE_API_KEY: "xxx"
+  GOOGLE_OAUTH_CLIENT_ID: "xxx"
+  GOOGLE_OAUTH_CLIENT_SECRET: "xxx"
